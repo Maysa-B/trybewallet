@@ -1,0 +1,39 @@
+header {
+  align-items: center;
+  background-color: #838295;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+header p , header span {
+  color: #311c39;
+  font-weight: 600;
+  margin: 0;
+}
+
+.header-right {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-right: 15px;
+}
+
+.header-right div , .header-right p {
+  align-items: center;
+  display: flex;
+  margin: 5px 0;
+}
+
+.logo-img {
+  margin-left: 15px;
+  width: 200px;
+}
+
+.user-icon {
+  background-color: aliceblue;
+  border-radius: 100%;
+  margin-right: 10px;
+  padding: 5px;
+  width: 35px;
+}
